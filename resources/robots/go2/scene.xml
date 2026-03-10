@@ -1,4 +1,4 @@
-<mujoco model="g2 scene">
+<mujoco model="go2 scene">
   <include file="go2.xml"/>
 
   <statistic center="1.0 0.7 1.0" extent="0.8"/>
@@ -17,9 +17,6 @@
 
   <worldbody>
     <light pos="1 0 3.5" dir="0 0 -1" directional="true"/>
-    <geom name="floor" size="0 0 0.05" type="plane" material="groundplane" friction="1.0 0.005 0.0001"/>
+    <geom name="floor" size="0 0 0.05" type="plane" material="groundplane"/>
   </worldbody>
-
 </mujoco>
-
-
